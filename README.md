@@ -1,59 +1,74 @@
-TASK 4 PROJECT
-📝 Project Description
+WEEK 4 - FULL STACK PROJECT
+📝 PROJECT DESCRIPTION
 
-This project is developed as part of Task 4.
-It demonstrates the implementation of a full-stack web application using Node.js and backend technologies with proper project structure and modular code design.
+This project is developed as part of Week 4 assignment.
+It is a full-stack web application using Node.js and Express.js, designed to handle backend operations with proper routing, API integration, and structured project architecture.
 
-🚀 Features
-User-friendly interface
-Backend API integration
-RESTful architecture
-Modular and scalable code
-Responsive design for all devices
-🛠️ Tech Stack
-HTML5
-CSS3
-JavaScript
+The project demonstrates server-side development, API handling, and database interaction concepts (if included).
+
+🚀 FEATURES
+📥 1. API Routing
+Structured backend routing using Express.js
+Handles different HTTP requests efficiently
+📥 2. RESTful API Endpoints
+
+Supports the following operations:
+
+GET – Retrieve data
+POST – Create new data
+PUT – Update existing data
+DELETE – Remove data
+📥 3. Backend Server
+Built using Node.js + Express.js
+Runs on a local server (default: http://localhost:3000)
+📥 4. Postman Testing
+All APIs tested using Postman
+Ensures proper request-response handling
+📥 5. Modular Code Structure
+Organized into routes, controllers, and models (if used)
+Clean and maintainable code structure
+🛠️ TECHNOLOGIES USED
 Node.js
 Express.js
+JavaScript (ES6+)
+Postman
+REST API Architecture
 Git & GitHub
-📁 Project Structure
-Task-4-KovvuriMahathi/
+📁 PROJECT STRUCTURE
+Week-4-Project/
 │
-├── backend/
-│   ├── server.js
-│   ├── package.json
-│   └── other backend files
-│
-├── frontend/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-│
+├── server.js
+├── package.json
+├── routes/
+│   └── routes.js
+├── controllers/
+│   └── controller.js
+├── models/
+│   └── model.js
 └── README.md
-⚙️ Installation & Setup
-1. Clone the repository
-git clone https://github.com/KovvuriMahathi/Task-4-KovvuriMahathi.git
-2. Navigate to project folder
-cd Task-4-KovvuriMahathi
-3. Install dependencies
+⚙️ HOW TO RUN THE PROJECT
+1. Clone the Repository
+git clone https://github.com/your-username/week-4-project.git
+2. Navigate to Project Folder
+cd Week-4-Project
+3. Install Dependencies
 npm install
-4. Run backend server
-cd backend
+4. Start the Server
 node server.js
-🌐 How to Run
-Start the backend server using Node.js
-Open frontend in browser
-Connect frontend with backend APIs
-Default server runs on: http://localhost:3000
-📌 Future Improvements
-User Authentication system
-Database integration (MongoDB/MySQL)
-Improved UI/UX design
-Cloud deployment (Render/Vercel/Netlify)
-👩‍💻 Author
-Name: Kovvuri Mahathi
-GitHub: https://github.com/KovvuriMahathi
-📄 License
+🌐 SERVER DETAILS
+Default URL:
+http://localhost:3000
+🧪 API TESTING (POSTMAN)
 
-This project is developed for educational purposes only.
+Test APIs using Postman:
+
+GET → Fetch data
+POST → Add data
+PUT → Update data
+DELETE → Delete data
+📌 FUTURE IMPROVEMENTS
+Add MongoDB / MySQL database
+Add authentication (JWT)
+Improve frontend UI
+Add input validation and error handling
+Deploy project on cloud platform (Render / Vercel)
